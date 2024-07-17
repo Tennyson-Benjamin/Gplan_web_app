@@ -1,0 +1,61 @@
+/* --Homepage Starts-- */
+
+.homepage-navbar-outerdiv {
+  background-color: #1c4c82;
+  width: 100%;
+  background-image: url("../../assets/homepage/bgL2.png"),
+    url("../../assets/homepage/bgL2.png");
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+}
+
+.quickStartSectionOuter {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.eachQuickStart {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.quickStartSection {
+  background-color: #1c4c82;
+  padding-left: 7%;
+  padding-bottom: 32px;
+  background-image: url("../../assets/homepage/bgL3.png"),
+    url("../../assets/homepage/bgL3.png");
+  background-repeat: no-repeat;
+  background-position: right -10px;
+}
+
+.scrollQuickStart {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.scrollQuickStart::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar_homepage {
+  position: sticky;
+  top: 0;
+  height: 56vh;
+  overflow-y: hidden;
+}
+
+.yourDocuments_homepage {
+  height: calc(44vh);
+  overflow-y: scroll;
+}
+
+.yourDocuments_homepage::-webkit-scrollbar {
+  display: none;
+}
+
+/* --Homepage End-- */
